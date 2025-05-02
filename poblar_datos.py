@@ -84,65 +84,65 @@ libro6 = Libro.objects.create(
 resena1 = Resena.objects.create(
     libro=libro1,
     texto="Una obra maestra del realismo mágico. Inolvidable.",
-    calificacion=10
+    calificacion=5.0
 )
 
 resena2 = Resena.objects.create(
     libro=libro2,
     texto="Un relato conmovedor y mágico de generaciones familiares.",
-    calificacion=9
+    calificacion=4.5
 )
 
 resena3 = Resena.objects.create(
     libro=libro3,
     texto="Una crítica dura pero necesaria sobre la vida militar.",
-    calificacion=8
+    calificacion=4.0
 )
 
 resena4 = Resena.objects.create(
     libro=libro4,
     texto="Una experiencia de lectura única y desafiante.",
-    calificacion=9
+    calificacion=4.5
 )
 
 resena5 = Resena.objects.create(
     libro=libro5,
     texto="Una historia encantadora que combina amor, cocina y tradiciones.",
-    calificacion=10
+    calificacion=5.0
 )
 
 resena6 = Resena.objects.create(
     libro=libro6,
     texto="Cada cuento es un universo en sí mismo, absolutamente brillante.",
-    calificacion=10
+    calificacion=5.0
 )
 
 resena7 = Resena.objects.create(
     libro=libro1,
     texto="El mejor libro que he leído en mi vida. Totalmente recomendable.",
-    calificacion=10
+    calificacion=5.0
 )
 
 resena8 = Resena.objects.create(
     libro=libro2,
     texto="Una buena historia pero por momentos se siente lenta.",
-    calificacion=6
+    calificacion=2.9
 )
 
 resena9 = Resena.objects.create(
     libro=libro5,
     texto="Interesante mezcla de cocina y romance, aunque algo predecible.",
-    calificacion=7
+    calificacion=3.5
 )
 
 resena10 = Resena.objects.create(
     libro=libro3,
     texto="No logré conectar con los personajes, me costó terminarlo.",
-    calificacion=4
+    calificacion=2.0
 )
 
 resena11 = Resena.objects.create(
     libro=libro6,
     texto="Demasiado abstracto para mi gusto, me pareció confuso.",
-    calificacion=3
+    calificacion=1.5
 )
